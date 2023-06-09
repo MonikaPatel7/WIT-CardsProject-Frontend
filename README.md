@@ -1,2 +1,2 @@
 # WIT-CardsProject-Fontend
-## This is the branch of html and css
+## This is the branch of Bootstrap
