@@ -26,13 +26,13 @@ margin collapse:
 https://www.w3schools.com/css/css_margin_collapse.asp
 #### 8.Box model: box-sizing:
 https://www.w3schools.com/css/css3_box-sizing.asp
-#### 9.position 
+#### 9.Position 
 https://www.w3schools.com/css/css_positioning.asp
-#### 10:overflow
+#### 10:Overflow
 https://www.w3schools.com/css/css_overflow.asp
-#### 11.flex
+#### 11.Flex
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-#### 12.others:
+#### 12.Others:
 media, grid, transform, transition, animation
 #### 13.Order: 
 - order of link in html
