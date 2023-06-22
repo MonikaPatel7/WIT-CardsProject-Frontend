@@ -16,7 +16,7 @@ install "live server", search something in file or in project)
 - clone to local
 - create new branch in local
 #### 4.Html: the elements
-image path/index name
+image path
 #### 5.Css selector
 https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048#toc-qa4w-x-y
 #### 6.Specificity:
