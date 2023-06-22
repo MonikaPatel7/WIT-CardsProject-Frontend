@@ -19,7 +19,7 @@ install "live server", search something in file or in project)
 image path
 #### 5.Css selector
 https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048#toc-qa4w-x-y
-#### 6.Specificity:
+#### 6.Specificity
 https://www.w3schools.com/css/css_specificity.asp
 #### 7.Box model: margin collapse
 https://www.w3schools.com/css/css_margin_collapse.asp
@@ -31,9 +31,9 @@ https://www.w3schools.com/css/css_positioning.asp
 https://www.w3schools.com/css/css_overflow.asp
 #### 11.Flex
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-#### 12.Others:
+#### 12.Others
 media, grid, transform, transition, animation
-#### 13.Order: 
+#### 13.Order
 - order of link in html
 - order of css class in element
 - order in css file
