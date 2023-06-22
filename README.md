@@ -13,7 +13,7 @@ https://www.w3schools.com/jsref/dom_obj_html_nodelist.asp
 https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation
 #### 4 Regex
 https://www.rexegg.com/regex-quickstart.html
-#### 5 create a new element
+#### 5 Create a new element
 - write in html, hide and show
 - create tag, set attribute and style, then append
 - add innerHTML
