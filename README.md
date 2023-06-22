@@ -22,7 +22,6 @@ https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-
 #### 6.Specificity:
 https://www.w3schools.com/css/css_specificity.asp
 #### 7.Box model: margin collapse
-margin collapse:
 https://www.w3schools.com/css/css_margin_collapse.asp
 #### 8.Box model: box-sizing:
 https://www.w3schools.com/css/css3_box-sizing.asp
