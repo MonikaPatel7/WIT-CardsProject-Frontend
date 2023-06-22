@@ -1,2 +1,2 @@
 # WIT-CardsProject-Fontend
-## This is the branch of Bootstrap
+## This is the branch of Interactive JS
