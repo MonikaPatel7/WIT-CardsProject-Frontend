@@ -1,5 +1,6 @@
 // const loginEle = document.getElementsByTagName('label')
 // const loginEle = document.querySelectorAll('label')
+import {auth, signInWithEmailAndPassword} from './firebase.js'
 $(document).ready(()=>{
     $('button').on('click', (e)=>{
         e.preventDefault()
@@ -24,39 +25,17 @@ $(document).ready(()=>{
             // send data to backend
             console.log(email)
             console.log(password)
-            window.location.href='cards.html'
+            signInWithEmailAndPassword(auth, email, password)
+            .then((userCredential)=>{
+                console.log(userCredential.user)
+
+                // get uid from userCredential.user and save uid into localstorage
+                
+                // get all user infor from db save name into localstorage
+                
+                window.location.href='cards.html'
+            })
+            
         }
     })
 })
-// const loginEle = document.querySelector('button')
-// console.log(loginEle)
-// loginEle.addEventListener('click', (e)=>{
-//     e.preventDefault()
-//     document.getElementById('login-email').nextElementSibling.style.display = 'none'
-//     document.getElementById('login-email').classList.remove("warning");
-//     document.getElementById('login-password').nextElementSibling.style.display = 'none'
-//     document.getElementById('login-password').classList.remove("warning");
-
-//     const email = document.getElementById('login-email').value
-//     const password = document.getElementById('login-password').value
-//     // const password = document.querySelector('#login-password').value
-    
-//     let reEmail = /[a-z]+@[a-z]+\.[a-z]+/
-//     let rePassword = /[a-zA-Z0-9]{6,20}/
-
-//     if(!reEmail.test(email)){
-//         // show the error for email
-//         document.getElementById('login-email').classList.add("warning")
-//         document.getElementById('login-email').nextElementSibling.style.display = 'block'
-//     }else if(!rePassword.test(password)){
-//         // show the error for password
-//         document.getElementById('login-password').classList.add("warning");
-//         document.getElementById('login-password').nextElementSibling.style.display = 'block'
-//     }else{
-//         // send data to backend
-//         console.log(email)
-//         console.log(password)
-//         window.location.href='cards.html'
-//     }
-     
-// })
